@@ -37,7 +37,7 @@ const Available = () => {
                 </div>
                 <div className='articles col'>
                     {all && all.filter(post => post.type.includes(alph)).map((res, i) => (
-                        <Link key={i} to={`post/${res._id}`}>
+                        <Link key={i} to={`/blog/post/${res._id}`}>
                             <span style={{ color: 'black' }}>{res.name}</span>
                         </Link>
                     ))}

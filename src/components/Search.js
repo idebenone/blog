@@ -39,7 +39,7 @@ const Search = () => {
             {/* search results*/}
             <div className='results col'>
                 {posts && posts.map(post => (
-                    <Link to={`/post/${post._id}`} key={post._id}>
+                    <Link to={`/blog/post/${post._id}`} key={post._id}>
                         <PostResult name={post.name} type={post.type} />
                     </Link>
                 ))}

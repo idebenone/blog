@@ -16,9 +16,9 @@ function App() {
           <Header />
           <div>
             <Routes>
-              <Route element={<Home />} path='/blog/' />
-              <Route element={<PageRender />} path='/:page' />
-              <Route element={<PageRender />} path='/:page/:id' />
+              <Route element={<Home />} path='/blog' />
+              <Route element={<PageRender />} path='/blog/:page' />
+              <Route element={<PageRender />} path='/blog/:page/:id' />
             </Routes>
           </div>
         </Router>
