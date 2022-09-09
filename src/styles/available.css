@@ -1,0 +1,27 @@
+.available {
+    margin-top: 4rem;
+    min-width: 400px;
+}
+
+.sortBtn button {
+    margin-top: 2rem;
+    border: none;
+    padding: 1rem;
+}
+
+.sortBtn button:hover {
+    background-color: #586C87;
+    color: white;
+}
+
+.articles {
+    margin-top: 3rem;
+    gap: 0.5rem;
+}
+
+.articles span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: justify;
+
+}

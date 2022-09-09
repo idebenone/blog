@@ -1,0 +1,65 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
+
+.postCont {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
+
+}
+
+.postCard {
+    /* padding: 1rem; */
+    padding-top: 1rem;
+    /* background-color: #E4E4E4; */
+    border-radius: 5px;
+}
+
+.back {
+    background-color: #E4E4E4;
+    border: none;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.back:hover {
+    background-color: black;
+    color: #fafafa;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.type {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    max-width: 150px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #E4E4E4;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.author {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.content {
+    margin-top: 1.5rem;
+    background-color: #fafafa;
+    border-radius: 5px;
+    /* padding: 1rem; */
+    text-align: justify;
+}

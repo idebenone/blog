@@ -1,0 +1,17 @@
+.nav {
+    justify-content: space-around;
+    padding: 3.5rem 0rem 3.5rem 0rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+.link {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #101720;
+}
+
+.link span {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-weight: 700;
+}

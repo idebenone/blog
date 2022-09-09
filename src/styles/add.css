@@ -1,0 +1,44 @@
+.formCont {
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.form {
+    min-width: 800px;
+    gap: 1rem;
+}
+
+.formGrp {
+    gap: 1rem
+}
+
+.formGrp input {
+    background-color: #E4E4E4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.formGrp textarea {
+    background-color: #E4E4E4;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+
+.publish {
+    border: none;
+    width: 200px;
+    background-color: #E4E4E4;
+    border-radius: 5px;
+}
+
+
+.publish:hover {
+    background-color: black;
+    color: #E4E4E4;
+}
+
+.slct {
+    justify-content: space-between;
+}
