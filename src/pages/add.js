@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 const Add = () => {
+    const history = useNavigate();
+
     const initialState = { name: '', author: '', content: '', type: '' }
     const [input, setInput] = useState(initialState)
     const { name, author, content, type } = input;
@@ -20,6 +23,7 @@ const Add = () => {
         e.preventDefault();
         console.log(input)
         fetchHandler();
+        history('/blog/');
     };
 
 
