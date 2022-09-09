@@ -28,7 +28,7 @@ const Available = () => {
     return (
         <div>
             <div className='available'>
-                <h2>Available Articels</h2>
+                <h2>Available Articles</h2>
                 <div className='sortBtn'>
                     <button onClick={handleAll}>All</button>
                     <button onClick={handleEntertainment}>Entertainment</button>

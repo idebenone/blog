@@ -15,9 +15,7 @@
 }
 
 .postCard {
-    /* padding: 1rem; */
     padding-top: 1rem;
-    /* background-color: #E4E4E4; */
     border-radius: 5px;
 }
 
@@ -38,7 +36,6 @@
 }
 
 .type {
-    /* background-color: green; */
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -60,6 +57,5 @@
     margin-top: 1.5rem;
     background-color: #fafafa;
     border-radius: 5px;
-    /* padding: 1rem; */
     text-align: justify;
 }
