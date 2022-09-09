@@ -16,7 +16,7 @@ function App() {
           <Header />
           <div>
             <Routes>
-              <Route element={<Home />} path='/' />
+              <Route element={<Home />} path='/blog/' />
               <Route element={<PageRender />} path='/:page' />
               <Route element={<PageRender />} path='/:page/:id' />
             </Routes>
